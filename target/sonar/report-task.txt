@@ -1,0 +1,6 @@
+projectKey=Project1:Maven1
+serverUrl=http://localhost:9000
+serverVersion=26.5.0.122743
+dashboardUrl=http://localhost:9000/dashboard?id=Project1%3AMaven1
+ceTaskId=5220e358-ba84-4b4e-9e12-faed3938a2d9
+ceTaskUrl=http://localhost:9000/api/ce/task?id=5220e358-ba84-4b4e-9e12-faed3938a2d9
