@@ -9,10 +9,11 @@ pipeline {
     stages {
 
         stage('Clone Repository') {
-            steps {
-                git 'https://github.com/mca-aditya-darda/Snake-Game-2.git'
-            }
-        }
+    steps {
+        git branch: 'main',
+            url: 'https://github.com/mca-aditya-darda/Snake-Game-2.git'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
